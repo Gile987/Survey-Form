@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cute Animals Survey</title>
+	<meta name="description" content="A simple HTML5 page with a survey form">
+	<meta name="author" content="Mladen Reljic">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Andada+Pro&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+	<div id="heading">
+		<h1 id="title">Which animal is the cutest?</h1>
+		<p id="description">We would like to know your sincerest opinion. Please let us know which animal is the cutest.</p>
+	</div>
+	<div id="survey-holder">
+		<form id="survey-form">
+			<div id="input-fields">
+				<label id="name-label"><b>Your Name:</b></label>
+				<input id="name" type="name" name="name" class="form-input" required placeholder="Full Name"><br>
+				</br>
+				<label id="email-label"><b>Your Email:</b></label>
+				<input id="email" type="email" name="email" class="form-input" required placeholder="example@mail.com"><br>
+				</br>
+				<label id="number-label"><b>Your Age:</b></label>
+				<input id="number" type="number" name="number" class="form-input" min="12" max="120" placeholder="12+">
+			</div>
+			<div id="dropdown-div"><br>
+				<label id="dropdown-label"><strong>How many years of cuteness expertise do you have: </strong></label></br>
+				</br>
+				<select id="dropdown" name="code-lang" class="form">
+					<option value="One">One Year</option>
+					<option value="Two">Two Years</option>
+					<option value="Three">Three Years</option>
+					<option value="Four">Four Years</option>
+					<option value="Five">Five Years</option>
+					<option value="Fivemore">Over Five Years</option>
+					<option value="Tenmore">Ten or More Years</option>
+				</select>
+			</div>
+			</br>
+			<div class="button-div">
+				<label class="question"><b>Do You Love Cute Animals?:</b></label><br>
+				<input type="radio" class="radio-inline" name="love" value="yes" checked>Yes!<br>
+				<input type="radio" class="radio-inline" name="love" value="yesyes">Yes, yes!<br>
+				<input type="radio" class="radio-inline" name="love" value="nodoubt">Without a Doubt!<br>
+				<input type="radio" class="radio-inline" name="love" value="absolutely">Absolutely!<br>
+				<input type="radio" class="radio-inline" name="love" value="all">All of the Above and More!<br>
+			</div>
+			<div class="button-div"><br>
+				<label class="question"><b>Starting Question - Which Ones do You Find Cute:</b></label><br>
+				<input type="checkbox" name="cat" value="cat" checked>Kitty<br>
+				<input type="checkbox" name="dog" value="dog">Doggy<br>
+				<input type="checkbox" name="bunny" value="bunny">Bunny<br>
+			</div>
+			<div class="button-div"><br>
+				<label class="question"><b>Advanced Question - Which Ones do You Find Cute:</b></label><br>
+				<input type="checkbox" name="dolphin" value="dolphin" checked>Dolphin<br>
+				<input type="checkbox" name="panda" value="panda">Panda<br>
+				<input type="checkbox" name="seaotter" value="seaotter">Sea Otter<br>
+			</div>
+			<div class="button-div"><br>
+				<label class="question"><b>Master Question - Which Ones do You Find Cute:</b></label><br>
+				<input type="checkbox" name="margay" value="margay" checked>Margay<br>
+				<input type="checkbox" name="quokka" value="quokka">Quokka<br>
+				<input type="checkbox" name="mangalitsa" value="mangalitsa">Mangalitsa<br>
+			</div>
+			<div id="dropdown"><br><br>
+				<label id="dropdown-label"><strong>Which Cute Animal Would You Adopt: </strong></label><br>
+				<select id="dropdown" name="adopt-animal" class="form-input"><br><br>
+					<option value="cat">Kitty</option>
+					<option value="dog">Doggy</option>
+					<option value="bunny">Bunny</option>
+					<option value="dolphin">Dolphin</option>
+					<option value="panda">Panda</option>
+					<option value="seaotter">Sea Otter</option>
+					<option value="margay">Margay</option>
+					<option value="quokka">Quokka</option>
+					<option value="mangalitsa">Mangalitsa</option>
+				</select>
+			</div>
+			<div id="button-holder"><br><br>
+				<label id="comments-label">If you have any questions or suggestion</label><br>
+				<textarea style=height:120px;" class="form-input"
+					placeholder="Let us know..."></textarea><br><br>
+				<input id="submit" type="submit">
+			</div>
+		</form>
+	</div>
+
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>

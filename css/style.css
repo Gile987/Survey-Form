@@ -1,0 +1,97 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 22px;
+    background-image: url("../images/backgroundimg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* If the image can't be found */
+    background-color: #AE388B;
+    width: 100%;
+    height: auto;
+    color: #fff;
+  }
+
+  #heading {
+    margin: 3.6rem auto;
+    padding: 1rem;
+    max-width: 660px;
+    background-color:rgb(255, 105, 180, 0.2);
+  }
+
+  #title {
+    padding: 1rem;
+    font-size: 38px;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  #survey-holder {
+    padding: 0% 30% 0% 30%;
+  }
+
+  #description {
+    padding: .5rem;
+    font-size: 28px;
+    text-align: center;
+    text-indent: 10px;
+  }
+
+  #survey-form {
+    padding: 4rem 3rem;
+    border-radius: 20px;
+    background-color: rgb(255, 105, 180, 0.8);
+  }
+
+  .button-div {
+    padding: 5px 0 5px 0;
+  }
+
+  .question {
+    padding: 0.4rem 0;
+    font-size: 24px;
+  }
+
+  .form-input {
+    font-size: 20px;
+    width: 100%;
+    padding: 1.2rem;
+    border-radius: 10px;
+    border: 1px solid #AE388B;
+  }
+
+  #button-holder {
+    position: relative;
+    height: 15rem;
+  }
+
+  #submit {
+    display: block;
+    width: 20rem;
+    max-width: 20rem;
+    background: #5DF15D;
+    color: #fff;
+    padding: 1rem;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100%;
+    border-radius: 10px;
+  }
+
+  #submit:hover {
+    background: #ADFF9E;
+  }
+
+  #comments-label {
+    padding-bottom: 0.6rem;
+    font-size: 26px;
+  }
