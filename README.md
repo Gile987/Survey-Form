@@ -1,6 +1,6 @@
 # Survey-Form
 
-FreeCodeAcademy Responsive Web Design Project #1
+FreeCodeAcademy Responsive Web Design Project #2
 
 - Create a simple page with a survey form. Pass all of the necessary FreeCodeAcademy tests.
 
